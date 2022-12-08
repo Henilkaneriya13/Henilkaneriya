@@ -1,13 +1,13 @@
 #include<stdio.h>
          
          
-         //syntax :  initialization;
+         /*syntax :  initialization;
          
-         //while(condition)
-         //{ 
-         //statement;
-         //updation;
-		 //}
+         while(condition)
+         { 
+         statement;
+         updation;
+		 }*/
          
               
 void main()
