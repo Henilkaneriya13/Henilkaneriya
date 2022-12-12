@@ -3,8 +3,9 @@
 void main()
 {
 	
-	int i;
+	int i,j;
 	
+	printf("%d")
 	for(i=1;i<10;i++)
 	{
 		printf("\n%d",i);
