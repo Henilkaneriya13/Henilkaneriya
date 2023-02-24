@@ -1,0 +1,89 @@
+<!-- Que 7.	Create Registration form using HTML, CSS   -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration page</title>
+</head>
+<body>
+	<p style="text-align : center ; color : blueviolet;">Create Registration form using HTML, CSS.</p>
+<div style="text-align: center; background-color:lightsalmon; width: 500px;margin-left: 30%;">		
+	<h1 align="center">Registration Form</h1>
+	</div>
+
+
+<hr width="500px" style="margin-left:30%; background-color:lightsalmon; height: 5px;"  >
+
+<div style=" border: 1px solid black; background-color: lightsalmon; width: 500px; height: 400px; margin-left: 30%;margin-top: 15px;">
+
+<form name="register" method="post" action=""> </form>
+
+<table align="center">
+
+<tr>
+	<td>First Name :</td>
+	<td><input type="text" name="fname" required placeholder="Enter First Name"></td>
+</tr>
+
+<tr>
+	<td>Last Name :</td>
+	<td><input type="text" name="lname" required placeholder="Enter Last Name"></td>
+</tr>
+
+<tr>
+	<td>Email Id :</td>
+	<td><input type="email" name="email" required placeholder="Enter Your Email"></td>
+</tr>
+
+<tr>
+	<td>Mobile :</td>
+	<td><input type="text" name="mobile" required placeholder="Enter Your Number" ></td>
+</tr>
+
+<tr>
+	<td>Password :</td>
+	<td><input type="Password" name="pwrd" required placeholder="Enter Your Password"></td>
+</tr>
+
+<tr>
+	<td>Confirm Password :</td>
+	<td><input type="Password" name="cpwrd" required placeholder="Confirm Your Password"></td>
+</tr>
+
+<tr>
+	<td>Address :</td>
+	<td>
+		<textarea rows="5" cols="25" name="add" required placeholder="Enter Your Address"></textarea></td>
+</tr>
+
+<tr>
+	<td>Gender :</td>
+	<td>
+		<input type="radio" name="male">Male
+		<input type="radio" name="female">Female
+	</td>
+</tr>
+
+<tr>
+	<td>Edcation Qualtification</td>
+	<td><select>
+		<option><----Select----></option>
+		<option>SSC</option>
+		<option>HSC</option>
+		<option>GRADUATE</option>
+		<option>POST GRADUATE</option>
+		<option>PhD</option>
+
+		</select>
+	</td>
+</tr>
+
+<tr>
+	<td></td>
+	<td><input type="submit" name="action" ></td>
+</tr>
+
+</table>
+</body>
+</html>
